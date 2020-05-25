@@ -1,0 +1,97 @@
+*{
+    outline: none;
+}
+nav{
+    margin: auto;
+    width: 95%;
+}
+nav img{
+    width: 7.5%;
+}
+.respBtn{
+    font-size: 15px;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+#logo{
+    width: 50%;
+}
+#welcome{
+    margin-top: 1%;
+}
+.new{
+    margin-bottom: 2%;
+}
+.cardsGroup{
+    justify-content: space-between;
+}
+#card{
+    width: 30%;
+    text-align: center;
+    margin: 1% 0px;
+}
+#card img{
+    align-self: center;
+    width: 50%;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+}
+#imgDetail{
+    width: 25%;
+}
+.card-title{
+    text-transform: capitalize;
+}
+
+.no{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.modal-body form{
+    width: 100%;
+}
+.modal-body h5,
+.modal-body h6{
+    text-transform: capitalize;
+}
+
+@media (max-width:800px){
+    #card{
+        width: 45%;
+    }
+}
+@media (max-width: 575px){
+    nav img{
+        width: 25%;
+    }
+    #card{
+        width: 100%;
+    }
+    #contact {
+        display: flex;
+    }
+    #contact button{
+        margin: 5px auto;
+        width: 90%;
+    }
+
+}
+
+@media (max-width:400px){
+    #welcome h3{
+        font-size: 20px;
+    }
+    .new button{
+        font-size: small;
+        padding: 5px;
+    }
+}
