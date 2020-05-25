@@ -6,7 +6,7 @@ const btn = document.querySelector("#submitForm");
 
 btn.addEventListener("click", () => {
   const data = {
-    username: `${usernameInput.value}`,
+    username: `${usernameInput.value.trim()}`,
     email: `${emailInput.value}`,
     job: `${roleInput.value}`,
   };
