@@ -64,6 +64,8 @@ main{
     text-transform: capitalize;
 }
 
+
+
 @media (max-width:800px){
     #card{
         width: 45%;
@@ -83,6 +85,13 @@ main{
         margin: 5px auto;
         width: 90%;
     }
+    .modal-dialog{
+        width: 90%;
+        margin: auto;
+    }
+    .modal-content{
+        margin: 25% auto;
+    }
 
 }
 
@@ -94,4 +103,5 @@ main{
         font-size: small;
         padding: 5px;
     }
+
 }
