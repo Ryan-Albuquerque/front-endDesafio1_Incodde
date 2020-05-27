@@ -2,9 +2,10 @@ const usernameInput = document.querySelector("#formGroupExampleInput");
 const emailInput = document.querySelector("#exampleInputEmail1");
 const roleInput = document.querySelector("#exampleInputProfessional");
 
+
 const btn = document.querySelector("#submitForm");
 
-btn.addEventListener("click", () => {
+btn.addEventListener("click",   () => {
   const data = {
     username: `${usernameInput.value.trim()}`,
     email: `${emailInput.value}`,
@@ -15,7 +16,7 @@ btn.addEventListener("click", () => {
     data.email.length !== 0 &&
     data.job.length !== 0
   ) {
-    fetch("https://incoddebackendd1.herokuapp.com/test", {
+    fetch("http://localhost:3000/test", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

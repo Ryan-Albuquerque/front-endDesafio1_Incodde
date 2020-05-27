@@ -1,4 +1,4 @@
-const url = 'https://incoddebackendd1.herokuapp.com/';
+const url = 'http://localhost:3000/';
 
 let cardBody = document.querySelector(".cardsGroup")
 

@@ -11,7 +11,7 @@ setInterval(() => {
             let email = document.querySelector(".modal-body p")
             let job = document.querySelector(".modal-body h6")            
 
-            fetch(`https://incoddebackendd1.herokuapp.com/user/${user.textContent}`)
+            fetch(`http://localhost:3000/user/${user.textContent}`)
                 .then(response => response.json())
                 .then(data=>{
                    username.textContent = data.username
